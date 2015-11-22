@@ -2,10 +2,7 @@
   "name": "xls-reader",
   "version": "0.0.1",
   "description": "a node server for reading local xls files and storing results in db",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "process.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/eriqbre/xls-reader"
@@ -17,6 +14,6 @@
   },
   "homepage": "https://github.com/eriqbre/xls-reader",
   "dependencies": {
-    "express": "^4.13.3"
+    "node-xlsx": "^0.6.0"
   }
 }
